@@ -1,5 +1,5 @@
 /* -----------------------------------------------------------------------------
-  - Project: RFID vehical enabling system using NodeMCU and external server
+  - Project: RFID vehicle enabling system using NodeMCU and external server
   - Author:  lakkaru
   - Date:  15/05/2024
    -----------------------------------------------------------------------------
@@ -41,7 +41,7 @@ MFRC522 mfrc522(SS_PIN, RST_PIN); // Create MFRC522 instance.
 
 /* Desired credentials. */
 const char *ssid = "Lakkaru Pre";
-const char *password = "4T4F0H88EYB";
+const char *password = "xxxxxxxxx";
 
 String API = "https://cdn.radikadilanka.com:9001/nodemcu/?"; //the server domain
 
